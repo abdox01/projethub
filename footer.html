@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer Example</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    /* Structure globale de la page pour que le footer reste en bas */
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+    .content-wrapper {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .footer {
+      background-color: #101010;
+      color: #ffffff;
+      padding: 40px 0 10px; /* 10px en bas pour réduire l'espace après les sections */
+    }
+    .footer a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .footer .social-icons a {
+      margin: 0 10px;
+      font-size: 24px;
+      color: #ffffff;
+      margin-top: 20px;
+    }
+    .footer h5, .footer p {
+      margin: 0;
+    }
+    .footer .footer-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding-bottom: 20px;
+    }
+    .footer .copyright {
+      text-align: center;
+      padding-top: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="content-wrapper">
+
+  <!-- Contenu principal de la page -->
+  <div class="container my-auto">
+    <!-- Contenu de la page ici -->
+  </div>
+
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="footer-content">
+
+        <div class="col-md text-center mb-2">
+          <h5 style="color: #00FF00;">Around TOMOBILTI</h5>
+          <div class="social-icons" style="margin-top: 30px;">
+            <a href="www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-md text-center">
+          <h5 style="color: #00FF00;">About TOMOBILTI</h5>
+          <p style="margin-top: 20px;">Discover a convenient way to reserve a car for your travels or share your vehicle with others. Join our community to enjoy easy, reliable, and flexible car reservation services.</p>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        <p>&copy; TOMOBILTI 2024</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- Liens FontAwesome et Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
